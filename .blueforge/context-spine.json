@@ -2,7 +2,7 @@
   "version": 1,
   "projectId": "",
   "createdAt": "2026-05-13T00:35:50.932Z",
-  "lastUpdatedAt": "2026-05-13T01:24:12.343Z",
+  "lastUpdatedAt": "2026-05-13T01:28:59.042Z",
   "decisions": [
     {
       "type": "general",
@@ -236,6 +236,26 @@
       "id": "d-1778635450334-uqht",
       "createdAt": "2026-05-13T01:24:10.334Z",
       "updatedAt": "2026-05-13T01:24:10.334Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: 위 주소 클릭했더니 첨부한 사진처럼 창이 열리는데?",
+      "description": "위 주소 클릭했더니 첨부한 사진처럼 창이 열리는데?",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1778635715443-p7g1",
+      "createdAt": "2026-05-13T01:28:35.443Z",
+      "updatedAt": "2026-05-13T01:28:35.443Z"
+    },
+    {
+      "type": "general",
+      "title": "User request: 배포해줘",
+      "description": "배포해줘",
+      "status": "pending",
+      "source": "user",
+      "id": "d-1778635738549-mhf5",
+      "createdAt": "2026-05-13T01:28:58.549Z",
+      "updatedAt": "2026-05-13T01:28:58.549Z"
     }
   ],
   "stageHistory": [
@@ -348,6 +368,20 @@
       "timestamp": "2026-05-13T01:21:34.544Z",
       "toolsSummary": "",
       "id": "s-1778635296749-tgye"
+    },
+    {
+      "workflowId": "280b51e1-b156-452b-ba41-eff0a7743d3e",
+      "roleId": "coder",
+      "summary": "---\n\n## ✅ GitHub 업로드 완료!\n\n저장소 주소: **https://github.com/hamyung1234-commits/yongjeong-danawa**\n\n### 완료된 작업 요약\n| 항목 | 상태 |\n|------|------|\n| `.gitignore` 생성 | ✅ node_modules, dist 등 제외 |\n| Git 초기화 | ✅ `",
+      "filesWritten": [
+        "src/types.ts",
+        ".gitignore"
+      ],
+      "modelUsed": "deepseek-v4-pro",
+      "success": true,
+      "timestamp": "2026-05-13T01:26:08.099Z",
+      "toolsSummary": "",
+      "id": "s-1778635570254-zyv7"
     }
   ],
   "sessions": []
